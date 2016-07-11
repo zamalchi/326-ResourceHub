@@ -12,3 +12,11 @@ img.img-size {
 img.img-margin {
   margin-top: 20px;
 }
+
+.no-padding {
+  padding: 0px;
+}
+
+.auto-width {
+  width: auto;
+}
