@@ -1,0 +1,226 @@
+body {
+  padding-top: 70px;
+  background: #f8f8f8;
+}
+.navbar-default {
+  background-color: #59ADEB;
+  border-color: #59ADEB;
+}
+.left-nav {
+  height: 100%;
+}
+ul.secondary-nav li a {
+    padding: 10px 15px;
+    padding-left: 35px;
+}
+.navbar-right {
+  margin-right: 0;
+}
+.no-border {
+  border: none;
+  color: #ccc;
+}
+.no-border:hover {
+  background-color: transparent;
+  color: #B30000;
+}
+.red {
+  color: #B30000;
+}
+.navbar-center {
+  width: auto;
+  align-items: center;
+}
+.logo {
+  margin-top: -15px;
+}
+.navbar-left a span {
+  font-size: 1.5em;
+  color: #fff;
+}
+.navbar-left {
+  margin-top: -10px;
+  top: 5px;
+  position: relative;
+}
+.full-width {
+  width: 100%;
+}
+.classes .pull-right {
+  top: 8px;
+  position: relative;
+}
+.section-progress {
+  padding: 0 30px;
+}
+.blue-hover:hover {
+  color: #337ab7;
+}
+.navbar-right .btn-primary {
+  background-color: #59ADEB;
+  border-color: #59ADEB;
+  font-size: 1.5em;
+}
+.navbar-right .btn-primary:hover, .open>.dropdown-toggle.btn-primary:focus, .open>.dropdown-toggle.btn-primary:hover {
+    color: #fff;
+    background-color: #4992C7;
+    border-color: #4992C7;
+}
+.btn-primary {
+  background-color: #59ADEB;
+  border-color: #59ADEB;
+}
+.btn-primary:hover {
+  background-color: #4992C7;
+  border-color: #4992C7;
+}
+.btn-primary.focus, .btn-primary:focus {
+  background-color: #3B82B7;
+  border-color: #3B82B7;
+}
+#headertext{
+  padding-top: 20px;
+  font-family: 'Calisto MT', 'Bookman Old Style', Bookman, 'Goudy Old Style', Garamond, 'Hoefler Text', 'Bitstream Charter', Georgia, serif;
+	font-size: 70px;
+	font-style: normal;
+	font-variant: normal;
+}
+#schooltext{
+  font-family: 'Calisto MT', 'Bookman Old Style', Bookman, 'Goudy Old Style', Garamond, 'Hoefler Text', 'Bitstream Charter', Georgia, serif;
+	font-size: 30px;
+	font-style: normal;
+	font-variant: normal;
+}
+#row1{
+  padding-top: 40px;
+}
+#row2{
+  padding-top: 40px;
+}
+#row3{
+  padding-top: 40px;
+}
+.coursediv{
+  font-family: 'Calisto MT', 'Bookman Old Style', Bookman, 'Goudy Old Style', Garamond, 'Hoefler Text', 'Bitstream Charter', Georgia, serif;
+	font-size: 20px;
+}
+span.glyphicon-education {
+    font-size: 1.7em;
+    padding-left: 2px;
+}
+span.glyphicon-home {
+    font-size: 1.7em;
+      padding-left: 2px;
+}
+
+
+.list-inline li {
+  flex: 1;
+
+  text-align: left;
+}
+ul {
+  text-align: left;
+}
+.listi{
+  font-weight: bold;
+}
+textarea{
+  resize:none;
+}
+.commentrow{
+  padding-left: 40px;
+}
+.nav-left .dropdown-menu>li {
+  display: table-cell;
+}
+.nav-left .dropdown-menu>li a,  .navbar-default .navbar-nav .nav-left>li>a {
+  color: #fff;
+}
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+  background-color: #4992C7;
+}
+.nav-left .dropdown-menu>li>a:focus, .nav-left .dropdown-menu>li>a:hover {
+  background-color: #4992C7;
+}
+.nav>li>a:focus, .nav>li>a:hover {
+  background-color: #59ADEB;
+}
+ul.nav.nav-left ul.dropdown-menu li span {
+    color: #fff;
+}
+.dropdown-menu .divider {
+  background-color: #3E7CA9;
+}
+.navbar-default .navbar-nav>li>a {
+  color: #fff;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: rgb(255, 255, 255);
+}
+.navbar-default .navbar-toggle:hover,.navbar-default .navbar-toggle:focus {
+  background-color: #4992C7;
+  border-color: #386C92;
+}
+.navbar-default .navbar-toggle {
+  border-color: #4584B3;
+}
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover, .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: #fff;
+}
+.navbar-right .btn-primary {
+  background-color: #59ADEB;
+  border-color: #59ADEB;
+  font-size: 1.5em;
+}
+.navbar-right .btn-primary:hover, .open>.dropdown-toggle.btn-primary:focus, .open>.dropdown-toggle.btn-primary:hover {
+    color: #fff;
+    background-color: #4992C7;
+    border-color: #4992C7;
+}
+.question .progress {
+  margin-top: 8px;
+}
+.btn-primary {
+  background-color: #59ADEB;
+  border-color: #5599CC;
+}
+.btn-primary:hover {
+  background-color: #4992C7;
+  border-color: #4992C7;
+}
+.btn-primary.focus, .btn-primary:focus {
+  background-color: #3B82B7;
+  border-color: #3B82B7;
+}
+.navbar-btn {
+  margin: 0;
+  margin-top: 4px;
+}
+.nav > li.dropdown.open {
+  position: static;
+}
+.nav-left > li.dropdown.open .dropdown-menu {
+  display:table;
+  width: 100%;
+  text-align: center;
+  left:0;
+  right:0;
+  background: rgba(73, 146, 199, 0.98);
+  border: 0;
+  border-bottom: 2px solid #3E7CA9;
+  border-radius: 0;
+}
+.cog{
+  padding-top: 20px;
+
+
+}
+.cogbutton{
+    background-color: lightgrey;
+  border:0px solid transparent;
+}
+
+.pbr {
+  display: flex;
+}

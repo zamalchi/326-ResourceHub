@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <title>Discussions</title>
+
+  <!-- Bootstrap -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/template.css" rel="stylesheet">
+  <link href="css/discussion.css" rel="stylesheet">
+  <link href="css/template.css" rel="stylesheet">
+  <!-- Custom CSS goes here -->
+</head>
+
+<body>
+  <!-- Custom HTML goes here -->
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">
+          <a class="navbar-brand logo" href="#"><img src="img/qq.png" class="img-circle pic-color" alt="Cinque Terre" width="75" height="55"></a>
+        </a>
+      </div>
+      <div class="navbar-collapse collapse" id="navbar" aria-expanded="false">
+        <ul class="nav navbar-nav list-inline nav-left">
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Subjects <span class="caret"></span></a>
+            <ul class="dropdown-menu" role="menu">
+              <li>
+                <span>Biology</span>
+                <ul class="nav">
+                  <li class="divider"></li>
+                  <li> <a href="#">Gen. Biology</a> </li>
+                  <li> <a href="#">Microbiology</a> </li>
+                  <li> <a href="#">Physical Biology</a> </li>
+                </ul>
+              </li>
+              <li>
+                <span>Chemistry</span>
+                <ul class="nav">
+                  <li class="divider"></li>
+                  <li> <a href="#" class="title">Gen. Chemistry</a> </li>
+                  <li> <a href="#">Organic Chemistry</a> </li>
+                  <li> <a href="#">Physical Chemistry</a> </li>
+                </ul>
+              </li>
+              <li>
+                <span>Computer Science</span>
+                <ul class="nav">
+                  <li class="divider"></li>
+                  <li> <a href="#" class="title">Gen. Comp. Sci.</a> </li>
+                  <li> <a href="#">Algorithms</a> </li>
+                  <li> <a href="#">Databases</a> </li>
+                </ul>
+              </li>
+              <li>
+                <span>Engineering</span>
+                <ul class="nav">
+                  <li class="divider"></li>
+                  <li> <a href="#" class="title">Gen. Engineering</a> </li>
+                  <li> <a href="#">Chem. Engineering</a> </li>
+                  <li> <a href="#">Elec. Engineering</a> </li>
+                </ul>
+              </li>
+              <li>
+                <span>Geology</span>
+                <ul class="nav">
+                  <li class="divider"></li>
+                  <li> <a href="#" class="title">Gen. Geology</a> </li>
+                  <li> <a href="#">GEO 101</a> </li>
+                  <li> <a href="#">GEO 102</a> </li>
+                </ul>
+              </li>
+              <li>
+                <span>Physics</span>
+                <ul class="nav">
+                  <li class="divider"></li>
+                  <li> <a href="#" class="title">Gen. Physics</a> </li>
+                  <li> <a href="#">PHYS 101</a> </li>
+                  <li> <a href="#">PHYS 102</a> </li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Current Classes <span class="caret"></span></a>
+            <ul class="dropdown-menu" role="menu">
+              <li>
+                <a href="#"> CMPSCI 326 </a>
+              </li>
+              <li>
+                <a href="#"> CMPSCI 305 </a>
+              </li>
+              <li>
+                <a href="#"> CMPSCI 445 </a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right list-inline">
+          <li>
+            <div class="dropdown navbar-btn class">
+              <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">
+                <span class="glyphicon glyphicon-user"></span>
+              </button>
+              <ul class="dropdown-menu">
+                <li>
+                  <a href="#"><span  class="glyphicon glyphicon-user"></span> Profile</a>
+                </li>
+                <li>
+                  <a href="#"><span  class="glyphicon glyphicon-comment"></span> Active Discussions</a>
+                </li>
+                <li>
+                  <a href="#"><span  class="glyphicon glyphicon-eye-open"></span> Account Overview</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <div class="dropdown navbar-btn class">
+              <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">
+                <span class="glyphicon glyphicon-cog"></span>
+              </button>
+              <ul class="dropdown-menu">
+                <li>
+                  <a href="#"><span  class="glyphicon glyphicon-home"></span> Log-Out</a>
+                </li>
+                <li>
+                  <a href="#"><span  class="glyphicon glyphicon-cog"></span> Account Settings</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="container">
+    <div class="row">
+      <!-- Left Navbar -->
+      <div class="col-md-3 left-nav">
+        <div class="dropdown navbar-btn">
+          <button class="btn btn-primary dropdown-toggle full-width" type="button" data-toggle="dropdown">Active Discussions <span class="caret pull-right"></span></button>
+          <ul class="dropdown-menu full-width">
+            <li><a href="#">Math 612</a></li>
+            <li><a href="#">Math 132</a></li>
+            <li><a href="#">Physics 152</a></li>
+            <li><a href="#">CS 220</a></li>
+          </ul>
+        </div>
+        <!-- Discussion panel -->
+        <!-- Get your title space -->
+        <div class="col-lg-4-offset-4">
+          <!-- This wraps the discussion feed -->
+          <div class="discussion-wrapper">
+            <!-- Give a panel for the title -->
+            <div class="panel panel-info">
+              <!-- In title panel grab text space -->
+              <div class="panel-heading">
+                Math 612
+              </div>
+            </div>
+            <button class="btn btn-primary btn-sm align">New Topic</button>
+            <!-- This is where the posts go -->
+            <div class="panel-body">
+              <!-- Search bar with button -->
+              <form class="navbar-form" role="search">
+                <div class="input-group add-on">
+                  <input type="text" class="form-control" placeholder="Search">
+                  <div class="input-group-btn">
+                    <button class="btn btn-default" type="submit"><i class="glyphicon glyphicon-search"></i></button>
+                  </div>
+                </div>
+              </form>
+              <!-- Where the posts go -->
+              <ul class="nav nav-pills nav-stacked full-width media-list item-config">
+                <li class="active media full-width post">
+                  <a class="active-discussion-pill media-body no-decor" data-toggle="pill" href="#question1">
+                      <small>
+                        1 min ago
+                      </small>
+                      <strong>
+                        <br>Topics in analysis<br/>
+                      </strong>
+                      How do I analyze this DATA?
+                      <br>
+                  </a>
+                </li>
+                <li class="media full-width post">
+                  <a class="active-discussion-pill media-body no-decor" data-toggle="pill" href="#question2">
+                    <small>
+                      3 min ago
+                    </small>
+                    <strong>
+                      <br>Probability Theory<br/>
+                    </strong>
+                    What in tarnation is this?
+                    <br>
+                  </a>
+                </li>
+                <li class="media full-width post">
+                  <a class="active-discussion-pill media-body no-decor" data-toggle="pill" href="#question3">
+                    <small>
+                      10 min ago
+                    </small>
+                    <strong>
+                      <br>Mathematical Logic<br/>
+                    </strong>
+                    This question isn't logical!
+                    <br>
+                  </a>
+                </li>
+                <li class="media full-width post">
+                  <a class="active-discussion-pill media-body no-decor" data-toggle="pill" href="#question3">
+                    <small>
+                      30 min ago
+                    </small>
+                    <strong>
+                      <br>Functional Analysis<br/>
+                    </strong>
+                    What kind of function is this?
+                    <br>
+                  </a>
+                </li>
+                <li class="media full-width post">
+                  <a class="active-discussion-pill media-body no-decor" data-toggle="pill" href="#question3">
+                    <small>
+                      35 min ago
+                    </small>
+                    <strong>
+                      <br>Homological Algebra<br/>
+                    </strong>
+                    How do I prove this relation is<br/>Homological
+                    <br>
+                  </a>
+                </li>
+                <li class="media full-width post">
+                  <a class="active-discussion-pill media-body no-decor" data-toggle="pill" href="#question3">
+                    <small>
+                      40 min ago
+                    </small>
+                    <strong>
+                      <br>Set Theory<br/>
+                    </strong>
+                    Help me figure this out!
+                    <br>
+                  </a>
+                </li>
+                <li class="media full-width post">
+                  <a class="active-discussion-pill media-body no-decor" data-toggle="pill" href="#question3">
+                    <small>
+                      50 min ago
+                    </small>
+                    <strong>
+                      <br>Topology<br/>
+                    </strong>
+                    Can someone help me<br>understand this topilogical<br>graph?
+                    <br>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Main Question Area -->
+      <div class="media">
+                  <div class="media-body">
+                    <div class="topic-title">
+                      <textarea rows="1" placeholder="Topic Title"></textarea>
+                    </div>
+                    <div class="brief-description">
+                      <textarea cols="60" rows="1" placeholder="Brief Description"></textarea>
+                    </div>
+                    <div class="form-group">
+                      <!-- rows="2" means "display the textarea as 2 rows high". The user can
+                      enter more than 2 rows of text. -->
+                      <textarea class="form-control" rows="2" placeholder="Start a New Discussion Here."></textarea>
+                    </div>
+                    <div class="row">
+
+
+                      <div class="col-md-12">
+                        <div class="pull-right">
+                          <div class="btn-group" role="group">
+                            <button type="button" class="btn btn-default btn-primary">
+                              <span class="glyphicon glyphicon-camera"></span>
+                            </button>
+                            <button type="button" class="btn btn-default btn-primary">
+                              <span> POST </span>
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+          </div>
+
+
+
+    </div>
+    <div class="row">
+      <!-- Main Discussion Area -->
+      <div class="col-md-12">
+        <div class="container-fluid">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                  Topics in analysis
+              </h4>
+              <br>
+            </div>
+            <div class="panel-body">
+              <p>
+                Lorem ipsum dolor sit amet, appareat postulant iudicabit ea sea. Amet vulputate ei his, justo eripuit repudiandae no nec. Delectus senserit referrentur cu quo. Quot verterem electram per ut, simul hendrerit ad vis, ea rebum conceptam cum. Qui ex summo
+                mediocrem, cum purto ignota perpetua no. Error viderer aliquid eu est, cetero evertitur posidonium ex duo. Ei partem fierent blandit quo, forensibus contentiones in duo. Sit odio mundi vitae te. Vis in probo aeque putant, nisl voluptua
+                conceptam sea eu. Case probo dicit sit at, usu ea postea volumus, cum ferri minimum offendit ex.
+              </p>
+              <br>
+              <hr>
+              <ul class="list-inline ratings">
+                <li>
+                  <button class="btn btn-primary user" type="button">
+                    <span class="glyphicon glyphicon-user"></span> John Smith
+                  </button>
+                </li>
+                <li>
+                  <a href="#"><span class="glyphicon glyphicon-thumbs-up" data-toggle="tooltip" title="Good post"></span></a>
+                </li>
+                <li>
+                  <a href="#"><span class="glyphicon glyphicon-thumbs-down red" data-toggle="tooltip" title="Bad Post"></span></a>
+                </li>
+                <li>
+                  <a href="#"><span class="glyphicon glyphicon-edit grey" data-toggle="tooltip" title="Edit Your Post"></span></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- Start Replies to Question -->
+      </div>
+    </div>
+    <div class="row">
+      <!-- Right sidebar: Used for our replies to posted question. -->
+      <div class="col-md-11 col-md-offset-1">
+        <div class="container-fluid">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                  Re: Topics in analysis
+                </h4>
+
+            </div>
+            <div class="panel-body">
+              <p>
+                Hey John, have you tried looking at Workshop 3? Maybe that would help you!
+              </p>
+              <hr>
+              <ul class="list-inline ratings">
+                <li>
+                  <button class="btn btn-primary user" type="button">
+                    <span class="glyphicon glyphicon-user"></span> Tim Richards
+                  </button>
+                </li>
+                <li>
+                  <a href="#"><span class="glyphicon glyphicon-thumbs-up" data-toggle="tooltip" title="Good post"></span></a>
+                </li>
+                <li>
+                  <a href="#"><span class="glyphicon glyphicon-thumbs-down red" data-toggle="tooltip" title="Bad Post"></span></a>
+                </li>
+              </ul>
+              <!-- Reply input box with "Post" button -->
+              <form class="reply">
+                <div class="input-group add-on">
+                  <input type="text" class="form-control" placeholder="Reply to Tim Richards">
+                  <div class="input-group-btn">
+                    <button class="btn btn-default" type="submit"><i class="glyphicon glyphicon-bold"></i></button>
+                    <button class="btn btn-default" type="submit"><i class="glyphicon glyphicon-italic"></i></button>
+                    <button class="btn btn-default" type="submit">Post <i class="glyphicon glyphicon-share-alt"></i></button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="js/jquery.min.js"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="js/bootstrap.min.js"></script>
+  <!-- App code -->
+  <script src="js/bundle.js"></script>
+  <script>
+    $(document).ready(function() {
+      $('[data-toggle="tooltip"]').tooltip();
+    });
+  </script>
+</body>
+
+</html>

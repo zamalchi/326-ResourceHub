@@ -1,0 +1,63 @@
+.headertext {
+  padding: 10px;
+}
+
+/***************************/
+/** START LEFT NAVIGATION **/
+
+.problem-set-pill {
+    border: 1px solid lightgrey;
+    width: auto;
+}
+
+.problem-set-info-panel {
+  padding: 10px;
+  padding-bottom: 0px;
+}
+
+.problem-set-info {
+  padding-top: 0px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+
+  margin: 0px;
+}
+
+.left-nav .media-list {
+  width: 250px;
+  overflow-y: auto;
+}
+
+
+/** END LEFT NAVITATION **/
+/*************************/
+
+
+/****************************/
+/** START PROBLEM SET AREA **/
+
+.greyed-out {
+  color: grey;
+}
+
+.empty-message {
+  color: lightgrey;
+  padding-left: 75px;
+}
+
+.ratings {
+  padding-top: 10px;
+}
+
+.glyphicon-remove, .glyphicon-eye-open {
+  color: lightgrey;
+}
+
+.btn-blue:hover {
+  background-color: #59ADEB;
+  border-color: #59ADEB;
+}
+
+
+/** END PROBLEM SET AREA **/
+/**************************/

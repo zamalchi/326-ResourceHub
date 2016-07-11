@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <title>QuickQuestions</title>
+
+  <!-- Bootstrap -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/template.css" rel="stylesheet">
+  <!-- Custom CSS goes here -->
+</head>
+
+<body>
+  <!-- Custom HTML goes here -->
+  <!-- Navbar -->
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">
+          <a class="navbar-brand logo" href="#"><img src="img/qq.png" class="img-circle pic-color" alt="Cinque Terre" width="75" height="55"></a>
+        </a>
+      </div>
+      <div class="navbar-collapse collapse" id="navbar" aria-expanded="false">
+        <ul class="nav navbar-nav list-inline nav-left">
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Subjects <span class="caret"></span></a>
+            <ul class="dropdown-menu" role="menu">
+              <li>
+                <span>Biology</span>
+                <ul class="nav">
+                  <li class="divider"></li>
+                  <li> <a href="#">Gen. Biology</a> </li>
+                  <li> <a href="#">Microbiology</a> </li>
+                  <li> <a href="#">Physical Biology</a> </li>
+                </ul>
+              </li>
+              <li>
+                <span>Chemistry</span>
+                <ul class="nav">
+                  <li class="divider"></li>
+                  <li> <a href="#" class="title">Gen. Chemistry</a> </li>
+                  <li> <a href="#">Organic Chemistry</a> </li>
+                  <li> <a href="#">Physical Chemistry</a> </li>
+                </ul>
+              </li>
+              <li>
+                <span>Computer Science</span>
+                <ul class="nav">
+                  <li class="divider"></li>
+                  <li> <a href="#" class="title">Gen. Comp. Sci.</a> </li>
+                  <li> <a href="#">Algorithms</a> </li>
+                  <li> <a href="#">Databases</a> </li>
+                </ul>
+              </li>
+              <li>
+                <span>Engineering</span>
+                <ul class="nav">
+                  <li class="divider"></li>
+                  <li> <a href="#" class="title">Gen. Engineering</a> </li>
+                  <li> <a href="#">Chem. Engineering</a> </li>
+                  <li> <a href="#">Elec. Engineering</a> </li>
+                </ul>
+              </li>
+              <li>
+                <span>Geology</span>
+                <ul class="nav">
+                  <li class="divider"></li>
+                  <li> <a href="#" class="title">Gen. Geology</a> </li>
+                  <li> <a href="#">GEO 101</a> </li>
+                  <li> <a href="#">GEO 102</a> </li>
+                </ul>
+              </li>
+              <li>
+                <span>Physics</span>
+                <ul class="nav">
+                  <li class="divider"></li>
+                  <li> <a href="#" class="title">Gen. Physics</a> </li>
+                  <li> <a href="#">PHYS 101</a> </li>
+                  <li> <a href="#">PHYS 102</a> </li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Current Classes <span class="caret"></span></a>
+            <ul class="dropdown-menu" role="menu">
+              <li>
+                <a href="#"> CMPSCI 326 </a>
+              </li>
+              <li>
+                <a href="#"> CMPSCI 305 </a>
+              </li>
+              <li>
+                <a href="#"> CMPSCI 445 </a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right list-inline">
+          <li>
+            <div class="dropdown navbar-btn class">
+              <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">
+                <span class="glyphicon glyphicon-user"></span>
+              </button>
+              <ul class="dropdown-menu">
+                <li>
+                  <a href="#"><span  class="glyphicon glyphicon-user"></span> Profile</a>
+                </li>
+                <li>
+                  <a href="#"><span  class="glyphicon glyphicon-comment"></span> Active Discussions</a>
+                </li>
+                <li>
+                  <a href="#"><span  class="glyphicon glyphicon-eye-open"></span> Account Overview</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <div class="dropdown navbar-btn class">
+              <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">
+                <span class="glyphicon glyphicon-cog"></span>
+              </button>
+              <ul class="dropdown-menu">
+                <li>
+                  <a href="#"><span  class="glyphicon glyphicon-home"></span> Log-Out</a>
+                </li>
+                <li>
+                  <a href="#"><span  class="glyphicon glyphicon-cog"></span> Account Settings</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- End Navbar -->
+  <div class="container">
+    <div class="row">
+      <!-- Left Navbar -->
+      <div class="col-md-3 left-nav">
+        <div class="dropdown navbar-btn">
+          <button class="btn btn-primary dropdown-toggle full-width classes" type="button" data-toggle="dropdown">Algebra II <span class="caret pull-right"></span></button>
+          <ul class="dropdown-menu full-width">
+            <li><a href="#">Math 612</a></li>
+            <li><a href="#">Math 132</a></li>
+            <li><a href="#">Physics 152</a></li>
+            <li><a href="#">CS 220</a></li>
+          </ul>
+        </div>
+        <ul class="nav nav-pills navb-stacked full-width">
+          <li class="full-width">
+            <a href="#"> Class Discussion <span class="glyphicon glyphicon-book pull-right"></span> </a>
+          </li>
+        </ul>
+        <hr>
+        <ul class="nav nav-pills nav-stacked full-width">
+          <li class="full-width">
+            <a href="#"> Question 1 <span class="glyphicon glyphicon-ok pull-right green"></span></a>
+          </li>
+          <li class="full-width">
+            <a href="#"> Question 2 <span class="glyphicon glyphicon-ok pull-right green"></span></a>
+          </li>
+          <li class="full-width">
+            <a href="#"> Question 3 </a>
+          </li>
+          <li class="full-width">
+            <a href="#"> Question 4 <span class="glyphicon glyphicon-ok pull-right green"></span></a>
+          </li>
+          <li class="full-width">
+            <a href="#"> Question 5 <span class="glyphicon glyphicon-ok pull-right green"></span></a>
+          </li>
+          <li class="full-width">
+            <a href="#"> Question 6 <span class="glyphicon glyphicon-ok pull-right green"></span></a>
+          </li>
+          <li class="full-width">
+            <a href="#"> Question 7 </a>
+          </li>
+          <li class="full-width">
+            <a href="#"> Question 8 <span class="glyphicon glyphicon-ok pull-right green"></span></a>
+          </li>
+          <li class="full-width">
+            <a href="#"> Question 9 <span class="glyphicon glyphicon-ok pull-right green"></span></a>
+          </li>
+          <li class="full-width">
+            <a href="#"> Question 10 <span class="glyphicon glyphicon-ok pull-right green"></span></a>
+          </li>
+        </ul>
+      </div>
+      <!-- End Left Navbar -->
+      <!-- Main Question Area -->
+      <div class="col-md-9 question">
+        <div class="container-fluid">
+          <!-- Progress bar -->
+          <div class="progress">
+            <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:80%"> 80% </div>
+          </div>
+          <!-- Question(s) -->
+          <div class="panel panel-default">
+            <div class="panel-body">
+              <img src="img/math1.png">
+              <hr> Your Answer: <b>D</b>
+              <hr> Correct Answer: <b>A</b>
+              <br>
+              <br>
+              <ul class="list-inline ratings">
+                <li>
+                  <a href="#"><span class="glyphicon glyphicon-thumbs-up" data-toggle="tooltip" title="Love it!" data-placement="right"></span></a>
+                </li>
+                <li>
+                  <a href="#"><span class="glyphicon glyphicon-thumbs-down red" data-toggle="tooltip" title="Too hard!" data-placement="right"></span></a>
+                </li>
+                <li>
+                  <a href="#"><span class="glyphicon glyphicon-remove-sign red" data-toggle="tooltip" title="Remove it!" data-placement="right"></span></a>
+                </li>
+                <ul class="list-inline pull-right">
+                  <li>
+                    <a href="#">
+                      <span class="glyphicon glyphicon-option-horizontal" data-toggle="tooltip" title="More" data-placement="left"></span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <span class="glyphicon glyphicon-education" data-toggle="tooltip" title="Ask professor" data-placement="left"></span>
+                    </a>
+                  </li>
+                </ul>
+              </ul>
+              <a href="discussion.html">
+                <button class="btn btn-primary btn-sm"> Next Question <span class="glyphicon glyphicon-share-alt"></span></button>
+              </a>
+              <ul class="pull-right actions list-inline">
+                <li>
+
+                </li>
+
+              </ul>
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="panel-title">
+                      How do I analyze this DATA?
+                  </h4>
+                  <br>
+                </div>
+                <div class="panel-body">
+                  <p>
+                    Lorem ipsum dolor sit amet, appareat postulant iudicabit ea sea. Amet vulputate ei his, justo eripuit repudiandae no nec. Delectus senserit referrentur cu quo. Quot verterem electram per ut, simul hendrerit ad vis, ea rebum conceptam cum. Qui ex summo
+                    mediocrem, cum purto ignota perpetua no. Error viderer aliquid eu est, cetero evertitur posidonium ex duo. Ei partem fierent blandit quo, forensibus contentiones in duo. Sit odio mundi vitae te. Vis in probo aeque putant, nisl voluptua
+                    conceptam sea eu. Case probo dicit sit at, usu ea postea volumus, cum ferri minimum offendit ex.
+                  </p>
+                  <br>
+                  <hr>
+                  <ul class="list-inline ratings">
+                    <li>
+                      <button class="btn btn-primary user" type="button">
+                        <span class="glyphicon glyphicon-user"></span> John Smith
+                      </button>
+                    </li>
+                    <li>
+                      <a href="#"><span class="glyphicon glyphicon-thumbs-up" data-toggle="tooltip" title="Good post"></span></a>
+                    </li>
+                    <li>
+                      <a href="#"><span class="glyphicon glyphicon-thumbs-down red" data-toggle="tooltip" title="Bad Post"></span></a>
+                    </li>
+                    <li>
+                      <a href="#"><span class="glyphicon glyphicon-edit grey" data-toggle="tooltip" title="Edit Your Post"></span></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="js/jquery.min.js"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="js/bootstrap.min.js"></script>
+  <!-- App code -->
+  <script src="js/bundle.js"></script>
+  <script>
+    $(document).ready(function() {
+      $('[data-toggle="tooltip"]').tooltip();
+    });
+  </script>
+</body>
+
+</html>

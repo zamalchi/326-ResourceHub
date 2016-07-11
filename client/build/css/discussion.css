@@ -1,0 +1,191 @@
+body {
+  padding-top: 70px;
+  background: #f8f8f8;
+}
+.navbar-default {
+  background-color: #59ADEB;
+  border-color: #59ADEB;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+.popup {
+  margin: 70px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  width: 30%;
+  position: relative;
+  transition: all 5s ease-in-out;
+}
+.popup h2 {
+  margin-top: 0;
+  color: #333;
+  font-family: Tahoma, Arial, sans-serif;
+}
+.popup .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+.popup .close:hover {
+  color: orange;
+}
+.popup .content {
+  max-height: 30%;
+  overflow: auto;
+}
+.badge {
+  background-color: red;
+  color: white;
+  border-radius: 3px;
+  padding-left: 4px;
+  padding-right: 4px;
+  border: 1px solid black;
+  /* Offset the badge a bit so it hovers over the glyphicon. */
+  right: 8px;
+  top: -10px;
+}
+.left-nav {
+  height: 100%;
+}
+ul.secondary-nav li a {
+    padding: 10px 15px;
+    padding-left: 35px;
+}
+.navbar-right {
+  margin-right: 0;
+}
+.navbar-center {
+  width: auto;
+  align-items: center;
+}
+.navbar-left  {
+  color: white;
+}
+.navbar-left a span {
+  font-size: 1.5em;
+  color: #337AB7;
+}
+.navbar-left {
+  top: 3px;
+  position: relative;
+}
+.glyphicon-search {
+  padding-bottom: 2px;
+}
+.glyphicon-question-sign {
+  padding: 3px;
+}
+.glyphicon-question-sign::before {
+  padding: 3px;
+}
+#selected {
+  background-color: #0198E1;
+}
+.item-config {
+  height: 440px;
+  width: 250px;
+  overflow: auto;
+}
+.align {
+  width: 262px;
+}
+.words {
+  word-spacing: -2ch;
+}
+.post {
+  color: black;
+  background-color: #509bd3;
+  border-radius: 5px;
+}
+.post:hover {
+  background-color: #C0D9D9;
+}
+.post:active {
+  background-color: #0198E1;
+}
+a.no-decor {
+  color: black;
+  text-decoration: none;
+}
+textarea {
+  padding-top: 6px;
+  border-radius: 5px;
+  resize: none;
+  columns: 10px;
+}
+.text-color:hover {
+  color:black;
+}
+.no-border {
+  border: none;
+  color: #ccc;
+}
+.no-border:hover {
+  background-color: transparent;
+  color: #B30000;
+}
+.red {
+  color: #B30000;
+}
+.grey {
+  color: #808080;
+}
+.logo {
+  margin-top: -15px;
+}
+.full-width {
+  width: 100%;
+}
+.full-width .pull-right {
+  top: 8px;
+  position: relative;
+}
+.section-progress {
+  padding: 0 30px;
+}
+.user {
+  color: #fff;
+  background-color: #337ab7;
+  border-color: #2e6da4;
+}
+.reply {
+  width: 100%;
+}
+.btn-primary {
+  background-color: #59ADEB;
+  border-color: #5599CC;
+}
+.btn-primary:hover {
+  background-color: #4992C7;
+  border-color: #4992C7;
+}
+.btn-primary.focus, .btn-primary:focus {
+  background-color: #3B82B7;
+  border-color: #3B82B7;
+}
+.navbar-btn {
+  margin: 0;
+  margin-top: 4px;
+}
+.glyphicon-user:before {
+  margin-right: 5px;
+}

@@ -1,0 +1,21 @@
+.btn-primary {
+  background-color: #59ADEB;
+  border-color: #59ADEB;
+}
+.btn-primary:hover {
+  background-color: #4992C7;
+  border-color: #4992C7;
+}
+.btn-primary.focus, .btn-primary:focus {
+  background-color: #3B82B7;
+  border-color: #3B82B7;
+}
+body {
+  padding-top: 70px;
+  background: #f8f8f8;
+}
+
+.active-discussion-pill {
+    border: 1px solid lightgrey;
+    width: auto;
+}
