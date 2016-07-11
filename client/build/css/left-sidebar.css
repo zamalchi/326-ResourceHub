@@ -1,5 +1,14 @@
+.page-wrap {
+  width: 400px;
+  margin: auto;
+  position: relative;
+}
+
 .left-sidebar {
   background-color: #dddddd;
+  width: 20%;
+  position: fixed;
+  margin-left: -30px;
   /*TESTING*/
-  height: auto;
+  height: 100%;
 }

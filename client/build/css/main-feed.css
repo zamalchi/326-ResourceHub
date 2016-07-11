@@ -13,10 +13,19 @@ img.img-margin {
   margin-top: 20px;
 }
 
+img.img-border {
+  border: 1px solid black;
+  padding: 5px;
+}
+
 .no-padding {
   padding: 0px;
 }
 
 .auto-width {
   width: auto;
+}
+
+hr.main-feed-separator {
+  border-top: 1px solid black;
 }

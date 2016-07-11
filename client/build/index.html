@@ -120,139 +120,143 @@
     <div class="row">
       <!-- ##################################################################### -->
       <!-- Start of Left sidebar -->
-      <div class="col-md-3 left-sidebar">
-        <div class="row left-sidebar-pinned">
-          <div class="col-md-12">
-            <h4>Pinned Hubs</h4>
-            <ul class="nav nav-pills nav-stacked list-group">
-              <!-- PINNED HUB 1 -->
-              <li role="presentation" class="list-group-item">
-                <div class="row">
-                  <div class="col-md-9">
-                    <a href="#">React - JS Framework</a>
-                  </div>
-                  <div class="col-md-3">
-                    <div class="list-inline">
-                      <a href="#"><span class="glyphicon glyphicon-pushpin"></span></a>
-                      <a href="#"><span class="glyphicon glyphicon-triangle-bottom pull-right"></span></a>
-                    </div>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col-md-12">
-                    <!-- PINNED HUB 1 : expanded view -->
-                    <ul class="nav nav-pills nav-stacked list-group">
-                      <a href="#">
-                        <li role="presentation" class="list-group-item">
-                          Overview
-                        </li>
-                      </a>
-                      <a href="#">
-                        <li role="presentation" class="list-group-item">
-                          Downloading/Installing
-                        </li>
-                      </a>
-                      <a href="#">
-                        <li role="presentation" class="list-group-item">
-                          Prerequisites
-                        </li>
-                      </a>
-                      <a href="#">
-                        <li role="presentation" class="list-group-item">
-                          Documentation
-                        </li>
-                      </a>
-                      <a href="#">
-                        <li role="presentation" class="list-group-item">
-                          Video
-                        </li>
-                      </a>
-                      <a href="#">
-                        <li role="presentation" class="list-group-item">
-                          Related Hubs
-                        </li>
-                      </a>
-                      <a href="#">
-                        <li role="presentation" class="list-group-item">
-                          Other links and Services
-                        </li>
-                      </a>
-                    </ul>
-                  </div>
-                </div>
-              </li>
-              <!-- PINNED HUB 2 -->
-              <li role="presentation" class="list-group-item">
-                <div class="row">
-                  <div class="col-md-9">
-                    <a href="#">HTML/CSS</a>
-                  </div>
-                  <div class="col-md-3">
-                    <div class="list-inline">
-                      <a href="#"><span class="glyphicon glyphicon-pushpin"></span></a>
-                      <a href="#"><span class="glyphicon glyphicon-triangle-left pull-right"></span></a>
-                    </div>
-                  </div>
-                </div>
-              </li>
-              <!-- PINNED HUB 3 -->
-              <li role="presentation" class="list-group-item">
-                <div class="row">
-                  <div class="col-md-9">
-                    <a href="#">Linear Algebra</a>
-                  </div>
-                  <div class="col-md-3">
-                    <div class="list-inline">
-                      <a href="#"><span class="glyphicon glyphicon-pushpin"></span></a>
-                      <a href="#"><span class="glyphicon glyphicon-triangle-left pull-right"></span></a>
-                    </div>
-                  </div>
-                </div>
-              </li>
-            </ul>
-          </div>
-          <!-- /.col-md-12 : inside left sidebar -->
-        </div>
-        <!-- /.row : 1 left sidebar -->
-        <div class="row left-sidebar-previous">
-          <div class="col-md-12">
-            <h4>Previously Viewed Hubs</h4>
-            <ul class="nav nav-pills nav-stacked list-group">
-              <!-- PREVIOUS HUB 1 -->
-              <li role="presentation" class="list-group-item">
-                <div class="row">
-                  <div class="col-md-9">
-                    <a href="#">Research Essay</a>
-                  </div>
-                  <div class="col-md-3">
-                    <div class="list-inline">
-                      <a href="#"><span class="glyphicon glyphicon-pushpin"></span></a>
-                      <a href="#"><span class="glyphicon glyphicon-triangle-left pull-right"></span></a>
-                    </div>
-                  </div>
-                </div>
-              </li>
-              <!-- PREVIOUS HUB 2 -->
-              <li role="presentation" class="list-group-item">
-                <div class="row">
-                  <div class="col-md-9">
-                    <a href="#">Esperanto - Language</a>
-                  </div>
-                  <div class="col-md-3">
-                    <div class="list-inline">
-                      <a href="#"><span class="glyphicon glyphicon-pushpin"></span></a>
-                      <a href="#"><span class="glyphicon glyphicon-triangle-left pull-right"></span></a>
-                    </div>
-                  </div>
-                </div>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <!-- /.row : 2 left sidebar -->
+      <div class="col-md-4 page-wrap">
+        <!-- page-wrap is used to fix left-sidebar in place -->
+        <div class="left-sidebar">
 
+          <div class="row left-sidebar-pinned">
+            <div class="col-md-12">
+              <h4>Pinned Hubs</h4>
+              <ul class="nav nav-pills nav-stacked list-group">
+                <!-- PINNED HUB 1 -->
+                <li role="presentation" class="list-group-item">
+                  <div class="row">
+                    <div class="col-md-9">
+                      <a href="#">React - JS Framework</a>
+                    </div>
+                    <div class="col-md-3">
+                      <div class="list-inline">
+                        <a href="#"><span class="glyphicon glyphicon-pushpin"></span></a>
+                        <a href="#"><span class="glyphicon glyphicon-triangle-bottom pull-right"></span></a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-12">
+                      <!-- PINNED HUB 1 : expanded view -->
+                      <ul class="nav nav-pills nav-stacked list-group">
+                        <a href="#overview">
+                          <li role="presentation" class="list-group-item">
+                            Overview
+                          </li>
+                        </a>
+                        <a href="#download-install">
+                          <li role="presentation" class="list-group-item">
+                            Downloading/Installing
+                          </li>
+                        </a>
+                        <a href="#prereq">
+                          <li role="presentation" class="list-group-item">
+                            Prerequisites
+                          </li>
+                        </a>
+                        <a href="#doc">
+                          <li role="presentation" class="list-group-item">
+                            Documentation
+                          </li>
+                        </a>
+                        <a href="#video">
+                          <li role="presentation" class="list-group-item">
+                            Videos
+                          </li>
+                        </a>
+                        <a href="#related-hubs">
+                          <li role="presentation" class="list-group-item">
+                            Related Hubs
+                          </li>
+                        </a>
+                        <a href="#other-links">
+                          <li role="presentation" class="list-group-item">
+                            Other links and Services
+                          </li>
+                        </a>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+                <!-- PINNED HUB 2 -->
+                <li role="presentation" class="list-group-item">
+                  <div class="row">
+                    <div class="col-md-9">
+                      <a href="#">HTML/CSS</a>
+                    </div>
+                    <div class="col-md-3">
+                      <div class="list-inline">
+                        <a href="#"><span class="glyphicon glyphicon-pushpin"></span></a>
+                        <a href="#"><span class="glyphicon glyphicon-triangle-left pull-right"></span></a>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <!-- PINNED HUB 3 -->
+                <li role="presentation" class="list-group-item">
+                  <div class="row">
+                    <div class="col-md-9">
+                      <a href="#">Linear Algebra</a>
+                    </div>
+                    <div class="col-md-3">
+                      <div class="list-inline">
+                        <a href="#"><span class="glyphicon glyphicon-pushpin"></span></a>
+                        <a href="#"><span class="glyphicon glyphicon-triangle-left pull-right"></span></a>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <!-- /.col-md-12 : inside left sidebar -->
+          </div>
+          <!-- /.row : 1 left sidebar -->
+          <div class="row left-sidebar-previous">
+            <div class="col-md-12">
+              <h4>Previously Viewed Hubs</h4>
+              <ul class="nav nav-pills nav-stacked list-group">
+                <!-- PREVIOUS HUB 1 -->
+                <li role="presentation" class="list-group-item">
+                  <div class="row">
+                    <div class="col-md-9">
+                      <a href="#">Research Essay</a>
+                    </div>
+                    <div class="col-md-3">
+                      <div class="list-inline">
+                        <a href="#"><span class="glyphicon glyphicon-pushpin"></span></a>
+                        <a href="#"><span class="glyphicon glyphicon-triangle-left pull-right"></span></a>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <!-- PREVIOUS HUB 2 -->
+                <li role="presentation" class="list-group-item">
+                  <div class="row">
+                    <div class="col-md-9">
+                      <a href="#">Esperanto - Language</a>
+                    </div>
+                    <div class="col-md-3">
+                      <div class="list-inline">
+                        <a href="#"><span class="glyphicon glyphicon-pushpin"></span></a>
+                        <a href="#"><span class="glyphicon glyphicon-triangle-left pull-right"></span></a>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- /.row : 2 left sidebar -->
+        </div>
+        <!-- /.left-sidebar -->
       </div>
-      <!-- /.col-md- : left -->
+      <!-- /.col-md- : left : page-wrap -->
       <!-- End of Left Sidebar -->
       <!-- ##################################################################### -->
 
@@ -261,20 +265,21 @@
 
       <!-- ##################################################################### -->
       <!-- Start of Main feed -->
-      <div class="col-md-7 main-feed">
+      <div class="col-md-8 main-feed">
         <div class="row title-row">
           <div class="col-md-9">
             <h2>React - JavaScript</h2>
             <h4>Programming Framework</h4>
           </div>
           <div class="col-md-3">
-            <img src="img/react_logo.png" class="img-size img-margin" />
+            <img src="img/react_logo.png" class="img-size img-margin img-border" />
           </div>
         </div>
         <!-- /.title-row -->
         <hr class="main-feed-separator" />
         <div class="row overview-row">
           <div class="col-md-12">
+            <a name="overview"></a>
             <h4>Overview</h4>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. In metus quam, aliquam vel accumsan nec, feugiat vel est. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec convallis, odio sed interdum luctus,
@@ -287,6 +292,7 @@
         <hr class="main-feed-separator" />
         <div class="row download-install-row">
           <div class="col-md-12">
+            <a name="download-install"></a>
             <h4>Downloading/Installing</h4>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. In metus quam, aliquam vel accumsan nec, feugiat vel est. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec convallis, odio sed interdum luctus,
@@ -299,6 +305,7 @@
         <hr class="main-feed-separator" />
         <div class="row prereq-row">
           <div class="col-md-12">
+            <a name="prereq"></a>
             <h4>Prerequisites</h4>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. In metus quam, aliquam vel accumsan nec, feugiat vel est. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec convallis, odio sed interdum luctus,
@@ -311,6 +318,7 @@
         <hr class="main-feed-separator" />
         <div class="row doc-row">
           <div class="col-md-12">
+            <a name="doc"></a>
             <h4>Documentation</h4>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. In metus quam, aliquam vel accumsan nec, feugiat vel est. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec convallis, odio sed interdum luctus,
@@ -321,8 +329,10 @@
         </div>
         <!-- /.doc-row -->
         <hr class="main-feed-separator" />
+        <!-- VIDEOS ROW -->
         <div class="row video-row">
           <div class="col-md-12">
+            <a name="video"></a>
             <h4>Videos</h4>
             <ul class="media-list list-inline">
               <!-- video 1 -->
@@ -372,6 +382,7 @@
         <hr class="main-feed-separator" />
         <div class="row related-hubs-row">
           <div class="col-md-12">
+            <a name="related-hubs"></a>
             <h4>Related Hubs</h4>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. In metus quam, aliquam vel accumsan nec, feugiat vel est. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec convallis, odio sed interdum luctus,
@@ -384,6 +395,7 @@
         <hr class="main-feed-separator" />
         <div class="row other-links-row">
           <div class="col-md-12">
+            <a name="other-links"></a>
             <h4>Other Links and Services </h4>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. In metus quam, aliquam vel accumsan nec, feugiat vel est. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec convallis, odio sed interdum luctus,
