@@ -1,0 +1,14 @@
+.main-feed {
+  background: #dddddd;
+  /*TESTING*/
+  height: auto;
+}
+
+img.img-size {
+  width: 50%;
+  height: 50%;
+}
+
+img.img-margin {
+  margin-top: 20px;
+}
